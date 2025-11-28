@@ -42,7 +42,8 @@ Constraints:
      - Daily and lagged returns  
      - Rolling volatility measures  
 
-3. **Machine Learning Models**  
+3. **Machine Learning Models**
+
    - Train and evaluate:
      - **Logistic Regression**  
      - **Random Forest Classifier**  
@@ -197,21 +198,15 @@ cd stockalpha-explainable-ml-llm
 conda create -n finance_stock_env python=3.13 -y
 conda activate finance_stock_env
 
-
 Install dependencies (adapt once you export requirements.txt):
-
 pip install pandas numpy scikit-learn xgboost streamlit python-dotenv requests openai
 
 6.3 Configure environment variables
 
 Create a .env file in the project root (copy from .env.example) and fill in:
-
 ALPHA_VANTAGE_API_KEY=your_alpha_vantage_key_here
 OPENAI_API_KEY=your_openai_or_proxy_key_here
 OPENAI_BASE_URL=optional_custom_base_url_if_using_proxy
-
-
-.env is gitignored; keys never leave your machine.
 
 6.4 Fetch data, build features, train models
 python -m src.fetch_data
@@ -223,7 +218,6 @@ python demo_prediction.py
 
 6.6 Launch Streamlit dashboard
 streamlit run app/dashboard.py
-
 
 Then open http://localhost:8501 in your browser.
 
@@ -254,4 +248,3 @@ Wrap the core pipeline in FastAPI and serve via a production frontend.
 ✅ GenAI explanation layer integrated with safe fallbacks.
 
 ✅ Ready as a portfolio project for ML / GenAI / Quant / FinTech roles.
-
