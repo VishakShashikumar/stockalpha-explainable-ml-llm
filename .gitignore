@@ -1,0 +1,32 @@
+# -------------------------
+# Python environments / caches
+# -------------------------
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# -------------------------
+# VS Code settings
+# -------------------------
+.vscode/
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+!.env.example   # keep only the example template, no real keys
+
+# -------------------------
+# Data (keep datasets local)
+# -------------------------
+data/raw/
+data/processed/
+
+# -------------------------
+# Models / artifacts (can be retrained)
+# -------------------------
+models/
