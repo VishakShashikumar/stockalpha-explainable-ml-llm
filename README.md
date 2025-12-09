@@ -265,4 +265,10 @@ Then open: [http://localhost:8501](http://localhost:8501)
 
 ---
 
+## 👤 Contributor – Vishak Shashikumar
 
+- Worked on API-driven data ingestion using the Alpha Vantage stock market API.
+- Assisted in feature engineering and preprocessing for stock trend prediction.
+- Contributed to machine learning model evaluation and performance analysis.
+- Supported explainable AI (XAI) components to improve transparency of model predictions.
+- Improved project documentation and GitHub structure for portfolio readiness.
